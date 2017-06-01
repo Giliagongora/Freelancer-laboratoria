@@ -4,16 +4,21 @@
 body{
 	font-family: 'Raleway', sans-serif;
 }
- .upSpace{
- 	font-family: arial;
- 	background-color: #2C3E50;
- 	color: white;
- 	height: 100px;
- }
  .menu{
- 	padding: 30px 30px;
-
+ 	background-color: #2C3E50;
+ 	width: 100%;
+ 	height: 100px;
+ 	position: fixed;
+ 	color: white;
  }
+
+.perfil{
+	background-color: #18BC9C;
+	width: 100%;
+	height: 600px;
+	align-content: center;
+}
+
 a{
 	text-align: right;
  	color: white;
@@ -21,15 +26,11 @@ a{
 	padding-right: 10px;
 	margin-left: 0px;
  }
-.perfil{
-	background-color: #18BC9C;
-	width: 100%;
-	height: 500px;
+
+.one{
+	height: 300px;
+	width: auto;
 	align-content: center;
-}
-.imgPerfil{
-	align-content: center;
-}
-img {
-    vertical-align: middle;
+	margin-top: 138px;
+	margin-left: 450px;
 }
